@@ -6,8 +6,7 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
+import { createApp } from 'vue'
+import App from './App.vue'
 
-import { createApp, defineAsyncComponent } from 'vue';
-
-createApp(defineAsyncComponent(() =>
-    import ('app.vue'))).mount('#app');
+createApp(App).mount("#app")
