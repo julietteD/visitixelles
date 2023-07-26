@@ -28,7 +28,7 @@
           </div>
           <div id="ixellesMap">
             <div>
-              <img src="/storage/image/map.svg" />
+              <img src="../../storage/image/map.svg" />
              <ul>
                 <li v-for="item in locations" :key="item.id" class="dot" :style="{ left: item.coordX + '%', top: item.coordY + '%' }">{{ item.coordX }} <span> 
                   <a @click="getActivelocation(item.id), changeMapPosition(item.coordX,item.coordY)">  {{ item.name }} </a></span></li>
@@ -50,7 +50,7 @@
           </div>
         </aside>
         <main>
-          <img v-if="isWelcome" src="/storage/image/coffee.gif" />
+          <img v-if="isWelcome" src="../../storage/image/coffee.gif" />
 
           <div v-else>
           <div class="text">
