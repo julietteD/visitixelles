@@ -50,7 +50,7 @@
           </div>
         </aside>
         <main>
-          <img v-if="isWelcome" src="../../storage/image/coffee.gif" />
+          <img v-if="isWelcome" src="https://iloveixelles.be/storage/image/coffee.gif" />
 
           <div v-else>
           <div class="text">
