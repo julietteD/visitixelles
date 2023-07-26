@@ -68,7 +68,7 @@
           ><br />
 
           <div class="specialLink">
-            <a @click="blablaOpen = !blablaOpen" class="blabla">BlaBla</a>
+            <a @click="blablaOpen = !blablaOpen" class="blabla">+ de blaBla</a>
 
           </div>
           <div class="blablacontent" v-if="blablaOpen">
